@@ -3,19 +3,29 @@
  * Author : Yiyue (Maggie) Mao
  */
 
+---------------------------TimedToDoList (Version 1.1)-----------------------
+
+- Timer now stops when all the tasks are completed. An "all clear"
+  message will appear at the same time,
+
+- A failure message now appears when time runs out.
+
+- For both of the above cases, the tasks can no longer be marked as complete/
+  incomplete after the messages pop up.
+
 ---------------------------TimedToDoList (Version 1.0)-----------------------
 
-- This is a to do list with custom tasks and time limits
+- This is a to do list with custom tasks and time limits.
 
 - To start this to do list, cd via command line into the directory containing
   the .class and .jar files, then type in the command 
-  'java -cp ./Acme.jar:./objectdraw.jar:. TimedToDoList' 
+  'java -cp ./Acme.jar:./objectdraw.jar:. TimedToDoList'.
 
 - Once the file launches, The usage message will be displayed. Follow the 
-  usage message to set up your tasks and time limit
+  usage message to set up your tasks and time limit.
 
 - After you enter the time limit, the timer will start running. The remaining
-  time will be shown on the pop-up window
+  time will be shown on the pop-up window.
 
 - Every task will have a check box before them. To mark a task as completed, 
   simply click in the corresponding box. The text color should fade, and a 
@@ -26,8 +36,8 @@
 
   ------------------------------Expected Updates-------------------------------
 
-  - Version 1.1
+  - Version 1.2
 
-    - Timer will stop when all the tasks are completed
+    - Will add a reset button and a pause button.
 
-    - When time runs out, a failure message will appear
+    - Visual upgrades.
