@@ -2,7 +2,12 @@
  * File Name : README
  * Author : Yiyue (Maggie) Mao
  */
+ 
+----------------------------------DISCLAIMER---------------------------------
 
+- Acme.jar and objectdraw.jar are NOT written by the author (Yiyue Mao).
+  They were downloaded from the UCSD CSE website.
+  
 ---------------------------TimedToDoList (Version 1.1)-----------------------
 
 - Timer now stops when all the tasks are completed. An "all clear"
